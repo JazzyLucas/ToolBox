@@ -1,0 +1,122 @@
+@import url("https://fontlibrary.org/face/hanken");
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'HankenBook';
+  font-weight: normal;
+  font-style: normal;
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  animation: colorchange 60s infinite;
+  -webkit-animation: colorchange 60s infinite;
+}
+
+.aboutme {
+  align-content: center;
+  text-shadow: 0 0 7px #FFFFFF;
+  color: #fff;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  font-size: 45px;
+}
+
+.panel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+}
+
+.games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.game {
+  text-shadow: 0 0 3px #FFFFFF;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.button span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+}
+
+.button {
+  padding: 15px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #00d2db;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #fff;
+  font-family: 'HankenBook';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.button:hover {background-color: #00bdc4}
+
+.button:active {
+  background-color: #00bdc4;
+  box-shadow: 0 5px;
+  transform: translateY(4px);
+}
+
+/* =============================================================================
+   Particles CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+canvas{
+  vertical-align:bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@keyframes colorchange {
+      0%   {background: #C4454E;}
+      11%  {background: #C97E47;}
+      22%  {background: #98BD43;}
+      33%  {background: #4AA63B;}
+      44%  {background: #2C7D74;}
+      55%  {background: #187feb;}
+      66%  {background: #7133ac;}
+      77%  {background: #9D3777;}
+      88%  {background: #ac336e;}
+      100% {background: #C4454E;}
+}
+
+@-webkit-keyframes colorchange
+{
+      0%   {background: #C4454E;}
+      11%  {background: #C97E47;}
+      22%  {background: #98BD43;}
+      33%  {background: #4AA63B;}
+      44%  {background: #2C7D74;}
+      55%  {background: #187feb;}
+      66%  {background: #7133ac;}
+      77%  {background: #9D3777;}
+      88%  {background: #ac336e;}
+      100% {background: #C4454E;}
+}
