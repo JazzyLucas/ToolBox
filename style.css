@@ -46,6 +46,10 @@ html, body {
   font-size: 30px;
 }
 
+.item href {
+  color: #6BCAFF;
+}
+
 .buttonItem {
   text-align: center;
   padding-bottom: 0px;
@@ -66,7 +70,7 @@ html, body {
   cursor: pointer;
   text-align: center;
   color: #FFFFFF;
-  background-color: #00d2db;
+  background-color: #1A1E42;
   border: none;
   border-radius: 20px;
   box-shadow: 0 9px #fff;
@@ -75,10 +79,10 @@ html, body {
   font-style: normal;
 }
 
-.buttonDropDown:hover {background-color: #00bdc4}
+.buttonDropDown:hover {background-color: #29316A}
 
 .buttonDropDown:active {
-  background-color: #00bdc4;
+  background-color: #1A1E42;
   box-shadow: 0 5px;
   transform: translateY(4px);
 }
@@ -87,7 +91,11 @@ html, body {
 	display: none;
 }
 
-#SocialMedia {
+#SchoolWork {
+	display: none;
+}
+
+#OnlineWorkFlow {
 	display: none;
 }
 
@@ -95,11 +103,7 @@ html, body {
 	display: none;
 }
 
-#Schoolwork {
-	display: none;
-}
-
-#OnlineWorkFlow {
+#SocialMedia {
 	display: none;
 }
 
