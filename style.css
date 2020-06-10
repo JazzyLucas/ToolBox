@@ -1,3 +1,9 @@
+/*
+Yo, welcome to Lucas's CSS code.
+This place is ugly but it makes
+things look pretty.
+*/
+
 @import url("https://fontlibrary.org/face/hanken");
 html, body {
   height: 100%;
@@ -9,8 +15,7 @@ html, body {
   padding:0;
   border:0;
   outline:0;
-  animation: colorchange 60s infinite;
-  -webkit-animation: colorchange 60s infinite;
+  background:#000941;
 }
 
 .aboutme {
@@ -24,21 +29,16 @@ html, body {
 
 .panel {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 10%;
+  top: 10%;
   height: 50%;
 }
 
-.games {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.category {
   height: auto;
 }
 
-.game {
-  text-shadow: 0 0 3px #FFFFFF;
+.item {
   text-align: left;
   color: #fff;
   padding-bottom: 0px;
@@ -46,13 +46,21 @@ html, body {
   font-size: 30px;
 }
 
-.button span {
+.buttonItem {
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.buttonDropDown span {
   cursor: pointer;
   position: relative;
   transition: 0.1s;
 }
 
-.button {
+.buttonDropDown {
+  margin-bottom: 30px;
   padding: 15px 40px;
   font-size: 24px;
   cursor: pointer;
@@ -67,56 +75,34 @@ html, body {
   font-style: normal;
 }
 
-.button:hover {background-color: #00bdc4}
+.buttonDropDown:hover {background-color: #00bdc4}
 
-.button:active {
+.buttonDropDown:active {
   background-color: #00bdc4;
   box-shadow: 0 5px;
   transform: translateY(4px);
 }
 
-/* =============================================================================
-   Particles CSS
-   ========================================================================== */
-
-/* ---- base ---- */
-
-canvas{
-  vertical-align:bottom;
+#Entertainment {
+	display: none;
 }
 
-/* ---- particles.js container ---- */
-
-#particles-js{
-  width: 100%;
-  height: 100%;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
+#SocialMedia {
+	display: none;
 }
 
-@keyframes colorchange {
-      0%   {background: #C4454E;}
-      11%  {background: #C97E47;}
-      22%  {background: #98BD43;}
-      33%  {background: #4AA63B;}
-      44%  {background: #2C7D74;}
-      55%  {background: #187feb;}
-      66%  {background: #7133ac;}
-      77%  {background: #9D3777;}
-      88%  {background: #ac336e;}
-      100% {background: #C4454E;}
+#Developers {
+	display: none;
 }
 
-@-webkit-keyframes colorchange
-{
-      0%   {background: #C4454E;}
-      11%  {background: #C97E47;}
-      22%  {background: #98BD43;}
-      33%  {background: #4AA63B;}
-      44%  {background: #2C7D74;}
-      55%  {background: #187feb;}
-      66%  {background: #7133ac;}
-      77%  {background: #9D3777;}
-      88%  {background: #ac336e;}
-      100% {background: #C4454E;}
+#Schoolwork {
+	display: none;
+}
+
+#OnlineWorkFlow {
+	display: none;
+}
+
+#Miscellaneous {
+	display: none;
 }
