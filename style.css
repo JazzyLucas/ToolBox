@@ -19,7 +19,6 @@ html, body {
 }
 
 .aboutme {
-  align-content: center;
   text-align: center;
   color: #fff;
   padding-bottom: 10px;
@@ -40,6 +39,8 @@ html, body {
   background: #343D80;
   border-radius: 20px;
   padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 
 .item {
@@ -47,7 +48,7 @@ html, body {
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a.item {
@@ -63,7 +64,7 @@ a.item:hover {
 
 .buttonItem {
   text-align: center;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   padding-top: 20px;
   font-size: 30px;
 }
@@ -84,7 +85,7 @@ a.item:hover {
   background-color: #1A1E42;
   border: none;
   border-radius: 20px;
-  box-shadow: 0 9px #fff;
+  box-shadow: 0 9px #4552B3;
   font-family: 'HankenBook';
   font-weight: normal;
   font-style: normal;
@@ -94,12 +95,12 @@ a.item:hover {
 
 .buttonDropDown:active {
   background-color: #1A1E42;
-  box-shadow: 0 5px;
+  box-shadow: 0 5px #4552B3;
   transform: translateY(4px);
 }
 
 #Entertainment {
-	display: none;
+	display: block;
 }
 
 #SchoolWork {
